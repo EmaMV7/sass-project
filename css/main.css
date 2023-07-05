@@ -1,16 +1,74 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-nav {
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #7C6A0A;
   background-color: #FFEFE7;
-  width: 100%;
-  height: 100px;
 }
 
-main {
-  background-color: #FFEFE7;
+nav {
+  width: 100%;
+  height: 135px;
+  justify-content: center;
+  align-items: center;
+}
+nav p {
+  font-size: 1.7rem;
+  font-weight: 400;
+  padding-left: 45px;
+}
+nav .icons {
+  padding-right: 30px;
+}
+nav .icons button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6%;
+}
+.main-section .info-section {
+  margin-top: 10px;
+  color: #7C6A0A;
+}
+.main-section .info-section > * {
+  margin: 20px 0;
+}
+.main-section .info-section .main-section__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.main-section .info-section p {
+  margin-top: 20px;
+  max-width: 500px;
+}
+.main-section .image-section img {
+  width: 300px;
+  border-radius: 8px;
+  margin-left: 30px;
+}
+.main-section .main-section__conocermas {
+  background-color: #FA9500;
+  border: 0;
+  margin: 25px 0;
+  border-radius: 15px;
+  padding: 8px 25px;
+  color: white;
 }
 
 footer {
