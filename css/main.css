@@ -71,6 +71,54 @@ nav .icons button {
   color: white;
 }
 
+.titles-h2 {
+  margin-left: 70px;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.personal-care {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.personal-care .card-product {
+  position: relative;
+  margin-top: 50px;
+  background-color: #FFDAC6;
+  border-radius: 8px;
+  width: 324px;
+  height: 502px;
+}
+.personal-care .card-product .icon-favorite {
+  position: absolute;
+  right: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.personal-care .card-product .product {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.personal-care .card-product .product .product-image {
+  width: 241px;
+  height: 300px;
+  border-radius: 7px;
+  margin: auto;
+}
+.personal-care .card-product .product .product-name {
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.personal-care .card-product .product .product-detail {
+  margin-left: 40px;
+  max-width: 80%;
+}
+
 footer {
   background-color: #FA9500;
   width: 100%;
