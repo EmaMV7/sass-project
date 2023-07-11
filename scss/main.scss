@@ -252,12 +252,13 @@ footer{
     $background:$quaternary-color;
     background-color: $background;
     width: 100%;
-    height: 300px;
+    height: 315px;
 
     color: white;
 
     div{              
-        margin-left: 40px;    
+        margin-left: 40px;   
+        margin-bottom: 10px; 
         display: flex;
         flex-direction: column;
 
@@ -285,7 +286,7 @@ footer{
             flex-direction: row;
             align-items: flex-end;
             gap: 22px;  
-            margin-top: 20px;
+            margin-top: 20px;   
     
             img{          
                 width: 30px;
