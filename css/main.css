@@ -50,10 +50,12 @@ nav .icons button {
   margin: 20px 0;
 }
 .main-section .info-section .main-section__title {
-  font-size: 1.8rem;
+  margin-top: 50px;
+  font-size: 2.6rem;
   font-weight: 600;
 }
 .main-section .info-section p {
+  font-size: 1.4rem;
   margin-top: 20px;
   max-width: 500px;
 }
@@ -71,19 +73,19 @@ nav .icons button {
   color: white;
 }
 
-.titles-h2 {
-  margin-left: 70px;
+.titles-h2, .titles-h2-2 {
+  margin: 50px 0 0px 70px;
   font-weight: 400;
   font-size: 40px;
 }
 
-.personal-care {
+.personal-care, .home-decor {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
 }
-.personal-care .card-product {
+.personal-care .product-card, .home-decor .product-card {
   position: relative;
   margin-top: 50px;
   background-color: #FFDAC6;
@@ -91,36 +93,137 @@ nav .icons button {
   width: 324px;
   height: 502px;
 }
-.personal-care .card-product .icon-favorite {
+.personal-care .product-card .icon-favorite, .home-decor .product-card .icon-favorite {
   position: absolute;
   right: 20px;
   margin-top: 10px;
   cursor: pointer;
 }
-.personal-care .card-product .product {
+.personal-care .product-card .product, .home-decor .product-card .product {
   margin-top: 50px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.personal-care .card-product .product .product-image {
+.personal-care .product-card .product .product-image, .home-decor .product-card .product .product-image {
   width: 241px;
   height: 300px;
   border-radius: 7px;
   margin: auto;
 }
-.personal-care .card-product .product .product-name {
+.personal-care .product-card .product .product-name, .home-decor .product-card .product .product-name {
   text-align: left;
   margin-left: 40px;
   margin-top: 20px;
+  font-weight: 600;
+  font-size: 23px;
 }
-.personal-care .card-product .product .product-detail {
+.personal-care .product-card .product .product-detail, .home-decor .product-card .product .product-detail {
+  margin-top: 5px;
   margin-left: 40px;
   max-width: 80%;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.home-decor .product-card {
+  background-color: #BABD8D;
+  color: #FFFFFF;
+}
+
+.titles-h2-2 {
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.about-us div {
+  max-width: 890px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  color: #E86424;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 10px 10px 0 10px;
+}
+.about-us div img {
+  width: 120px;
+}
+
+.gallery-images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+.gallery-images img {
+  width: 396px;
+  height: 398px;
+  border-radius: 16px;
+}
+
+.location {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.location .location-map {
+  width: 100%;
+  padding: 0px 50px;
+}
+.location p {
+  color: #E86424;
+}
+.location .location-p1 {
+  margin-top: 10px;
+  font-size: 25px;
+  margin-left: 55px;
+}
+.location .location-p2 {
+  font-size: 15px;
+  margin-left: 62px;
 }
 
 footer {
   background-color: #FA9500;
   width: 100%;
   height: 300px;
+  color: white;
+}
+footer div {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+footer div h4 {
+  padding: 30px 0 20px;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+footer div a {
+  padding: 10px 0;
+  font-size: 0.9rem;
+  width: 15px;
+  cursor: pointer;
+}
+footer div a:hover {
+  text-decoration: underline;
+}
+footer div .social-media {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 22px;
+  margin-top: 20px;
+}
+footer div .social-media img {
+  width: 30px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
